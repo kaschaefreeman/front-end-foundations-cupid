@@ -105,7 +105,7 @@ header nav ul li {
 header nav ul li a {
   color: #ecdbc9;
   text-decoration: none;
-  padding: 0 20px 0 0;
+  padding: 0 10px 0 0;
 }
 
 header nav ul li a:hover {
@@ -168,7 +168,7 @@ footer p {
   }
   
   .nav-item{
-    margin: 0;
+    margin: 10px;
   }
   
   .logo{
@@ -176,7 +176,7 @@ footer p {
   }
 
   header nav ul li a {
-      padding: 0 0 0 0;
+      padding: 0 10px 10px 0;
   }
 
   .group {
@@ -245,9 +245,6 @@ footer p {
   form {
     display: flex;
     flex-direction: column;
-   
-
-    
   }
 
   img {
@@ -259,4 +256,12 @@ footer p {
     flex: 2;
   }
 
+}
+@media all and (max-width: 480px){
+  *{
+    font-size: 90%;
+  }
+  .logo{
+    font-size: 55px;
+  }
 }
